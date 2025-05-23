@@ -9,7 +9,6 @@ import { Option, isSome, none } from "fp-ts/lib/Option";
 import { useForm } from 'react-hook-form';
 import { FormButton, FormInput, FormSelect, FormTextarea } from "uiComponents/Form";
 
-
 const Header = () => {
 
   interface IsearchForm {
@@ -25,7 +24,6 @@ const Header = () => {
       searchInput: '',
      },
    });
- 
   const [isProcessing, setIsProcessing] = useState<Option<boolean>>(none)
   
   const [showMobMenu, setShowMobMenu] = useState(false);
