@@ -1,0 +1,21 @@
+.file-upload-container {
+  display: flex;
+  .files-count {
+    font-size: 14px;
+  }
+  img {
+    width: 80px;
+    height: max-content;
+  }
+  .upload-btn {
+    /* border-radius: 20px; */
+    width: max-content;
+    display: flex;
+    align-items: center;
+    input {
+      width: 0;
+      height: 0;
+      overflow: hidden;
+    }
+  }
+}

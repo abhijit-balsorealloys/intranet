@@ -1,0 +1,80 @@
+ 1. Company Announcements & Circulars
+Latest company news and updates.
+
+Circulars from management or HR.
+
+Shift changes, holiday lists, and public notices.
+
+2. HR Zone
+Employee handbook and HR policies.
+
+Leave application system with status tracking.
+
+Birthday/anniversary greetings and employee recognition posts.
+
+3. Departmental Dashboards
+Each department (e.g., Production, Maintenance, HR, Finance, Safety) can have its own section:
+
+Daily reports or shift summaries.
+
+SOPs and manuals.
+
+KPIs and progress tracking.
+
+4. Document Repository
+Secure access to frequently used documents:
+
+Safety manuals.
+
+Work instructions.
+
+Equipment maintenance logs.
+
+ISO/compliance documents.
+
+5. Safety & Compliance Corner
+Safety drill schedules.
+
+EHS policies and hazard alerts.
+
+Safety incident reporting form.
+
+Training materials (e.g., PDFs, videos).
+
+6. Employee Directory
+Searchable contact list by department or designation.
+
+Profile pages with basic contact and role info.
+
+7. IT Support & Service Requests
+Ticketing system for technical issues.
+
+FAQs and troubleshooting guides.
+
+Software request forms.
+
+8. Production Highlights
+Daily/monthly production data snapshots.
+
+Graphical dashboards.
+
+Downtime logs and analysis.
+
+9. Training & Development
+E-learning modules and video training content.
+
+Upcoming training session calendar.
+
+Feedback forms post-training.
+
+10. Feedback & Suggestions
+Employees can submit ideas for process improvement.
+
+Anonymous feedback option.
+
+Management response tracker.
+
+11. Events & Gallery
+Photo gallery from events (safety week, annual day, etc.).
+
+Upcoming events calendar.
