@@ -7,7 +7,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import SideBarNav from "./SideBarNav";
 
 const SidebarContent: React.FC<{
-	navFor: 'About Us' | 'Facilities' | 'Customers' | 'Investors' | 'Sustainability' | 'Media' | 'Careers';
+	navFor: 'About Us' | 'Facilities' | 'Customers' | 'Investors' | 'Company Policy' | 'Media' | 'Careers';
 	children: React.ReactNode;
 }> = ({ navFor, children }) => {
 

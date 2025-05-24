@@ -26,7 +26,7 @@ const PageHeader: React.FC<{
 		<div className="page-header">
 			<div className="inner">
 				<div className="container-fluid py-5">
-					<h1 className="title">{title}</h1>
+					<h5 className="title">{title}</h5>
 					{breadcrumbs.length > 0 &&
 						<nav>
 							<ul className="m-0 p-0 d-flex flex-wrap align-items-center">

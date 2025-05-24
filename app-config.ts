@@ -15,12 +15,17 @@ export const encryptionKey = "23BAL587ASHISrI50PORTcs01l6UIAPP";
 export const navLinks = [
   {
     name: 'About Us', submenus: [
-      { name: 'Company Profile', link: '/company-profile' },
+      { name: 'Company Profile', link: '/profile' },
       { name: 'Vision, Mission & values', link: '/vision-mission-values' },
     ]
   },
-  {
-    name: 'Company Policy', link: '/company-policy'
+ {
+    name: 'Company Policy', submenus: [
+      { name: 'HR Policy', link: '/hr-policy' },
+      { name: 'CSR Policy', link: '/csr' },
+      { name: 'TPM Policy', link: '/tpm' },
+      { name: 'SHE Policy', link: '/she' },
+    ]
   },
   {
     name: 'KPI Dashboard', submenus: [

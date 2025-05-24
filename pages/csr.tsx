@@ -17,30 +17,42 @@ export default function Page() {
       </Head>
       <Header />
       <PageHeader title="CSR" breadcrumbs={[
-        { name: 'Sustainability', link: '#' },
-        { name: 'CSR', link: '' },
+        { name: 'Company Policy', link: '#' },
+        { name: 'CSR Policy', link: '' },
       ]} />
-      <SidebarContent navFor="Sustainability">
-        {/* <div className="container"> */}
+      <SidebarContent navFor="Company Policy">
+        <div className="container section-csr-policy"> 
         <div className="row">
           <div className="col-sm-12">
             <fieldset className="article-box-border">
-              <h3>CSR Month at Balasore Alloys Ltd. - March 2019</h3>
+              <h6>ANNUAL REPORT ON CORPORATE SOCIAL RESPONSIBILITY (CSR) ACTIVITIES/ INITIATIVES FOR THE FINANCIAL YEAR 2022-23</h6>
               <div className="blue-line mt-2 mb-4"></div>
-              <div className="text-center">
-                <Zoom>
-                  <img src="/images/PIC2.jpg" className="w-100 max-width-100" height="350" alt="" />
-                </Zoom>
-              </div><br></br>
-              <p>Balasore Alloys is taking the initiative to host CSR Month 2019 with the following planned events :</p>
+              <div className="csr-text">
+               [Pursuant to Section 135 of the Companies Act, 2013 Read with Companies (Corporate Social Responsibility Policy), Rules, 2014]
+              </div>
+                <p className="csr-heading">1.	A brief outline of the Company’s CSR policy, including overview of the projects or programs proposed to be undertaken: </p>
+                <p>Corporate Social Responsibility (‘CSR’) Policy of Balasore Alloys Ltd. (‘BAL’) encompasses the company’s philosophy for delineating its responsibility as a corporate citizen and lays down the guidelines and mechanism for undertaking socially useful programmes for welfare & sustainable development of the community at large.</p>
 
+                <p>Corporate Social Responsibility (‘CSR’) has been embedded in the long term business strategy of the Company. For BAL, business priorities co-exist with social commitments to drive holistic development of people and communities. The Company’s CSR initiative helps in elevating the quality of life, especially to the disadvantaged sections of the society. It aims to continue its efforts to build on its tradition of social responsibility to empower people and deepen its social engagements.</p>
+
+               <p>The Corporate Social Responsibility (CSR) Committee has formulated and recommended to the Board, this Corporate Social Responsibility Policy (CSR Policy) indicating the activities to be undertaken by the Company, which has been approved by the Board. The CSR Policy may be accessed on the Company’s website at a link as mentioned below:</p>
+              <p><Link href={"http://www.balasorealloys.com/upload/media/csr-policy/CSR_25_06_2018.pdf"} passHref>http://www.balasorealloys.com/upload/media/csr-policy/CSR_25_06_2018.pdf</Link>
+               </p>
+
+              <p>The key philosophy of all CSR initiatives of the Company is guided by three core commitments of Scale, Impact and Sustainability.   
+              </p>
+              <p className="csr-text">Focus Areas of Engagement:</p>
+              <p>Among various CSR initiatives of the Company, the major focused areas of CSR spending for the Financial Year 2022-23 had been the followings:</p>
+         
               <List
                 data={[
                   <>
-                    <h6>2nd-6th March :</h6> Fruit-bearing tree distribution as part of our Natural Resource Management drive
+                    <h6>Healthcare:</h6> <p>Company is always committed towards CSR at large and as such invested in multiple healthcare projects. Mega Blood Donation camp was organised in collaboration with local community wherein 200 units of blood was collected for benefit of local people. Dengue Awareness programme, First Aid Camp, and Assistance for the Better Treatment for critical and needy patient were other health related awareness/programs organised by BAL.</p>
+                   
                   </>,
-                  <>
-                    <h6>8th March :</h6> International Women's Day as part of our Women Empowerment drive
+                  <><h6>Medicine:</h6> <p className="list-text">Further, distribution of free medicines, health awareness & promotion programmes, programme for physically challenged person, free ambulance facility, distribution of blankets & mosquito nets, etc., are among various initiatives taken towards health care in the financial year 2022-23</p>
+                  </>,
+                  <><h6>Water Supply:</h6> <p>The Company has initiated several Safe water projects and in process of endeavouring such commitment, the Company has started Operation & Maintenance of four safe drinking water supply projects benefiting 560 households of Kaliapani, Ghagiashi, Chinghudipal & Bamanagar villages by having regular access to safe water, thereby reducing the number of cases of water borne diseases.Several Water Purifiers were also installed  in the peripheral areas of Plant providing safe drinking water for all localities.</p>
                   </>,
                   <>
                     <h6>10th March :</h6> Water project inauguration as part of our Water and Sanitation drive
@@ -201,7 +213,7 @@ export default function Page() {
 
         </div>
 
-        {/* </div> */}
+         </div> 
 
       </SidebarContent>
       <Footer />
