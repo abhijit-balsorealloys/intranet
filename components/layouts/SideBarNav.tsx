@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const SideBarNav: React.FC<{
-	navFor: 'About Us' | 'Facilities' | 'Customers' | 'Investors' | 'Sustainability' | 'Media' | 'Careers';
+	navFor: 'About Us' | 'Facilities' | 'Customers' | 'Investors' | 'Company Policy' | 'Media' | 'Careers';
 }> = ({ navFor }) => {
 	const router = useRouter()
 	const getLinks = () => {

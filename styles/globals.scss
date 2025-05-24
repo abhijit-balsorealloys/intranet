@@ -43,6 +43,8 @@ body {
 }
 .logo {
  float:left;
+ margin-left:-60px;
+
 }
 #searchInput {
   height:20px;
@@ -61,6 +63,7 @@ body {
 }
 .navbar-nav{
   font-size: 12px;
+  margin-left:15%;
 
 /* Ensure dropdown-menu is positioned relative to parent */
 .dropdown-menu {
@@ -366,6 +369,7 @@ p{
   background: url("/images/bodydesign.jpg") repeat;
   background-size: auto;
   background-size: 5px;
+  height:130px;
 
   &::after {
     width: 100%;
@@ -380,7 +384,7 @@ p{
   .inner {
     background-image: url("/images/header-bg.png");
     background-repeat: no-repeat;
-    min-height: 250px;
+    padding:10px;
     background-position: right bottom;
     display: flex;
     align-items: center;
@@ -389,6 +393,10 @@ p{
   }
 
   h1 {
+    color: #008edb;
+    font-weight: 600;
+  }
+   h5 {
     color: #008edb;
     font-weight: 600;
   }
@@ -670,6 +678,12 @@ p{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background-color:#F5F5F5;
 }
+.section-csr-policy{
+  padding:15px;
+  border-radius: 5px solid #000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color:#F5F5F5;
+}
 .section-stories{
   padding:20px;
   border-radius: 30px;
@@ -772,6 +786,7 @@ p{
   font-family: "Arial", sans-serif;
   font-size: 12px;
 }
+
 .video{
   width:100%;
   height:50%;
@@ -941,3 +956,16 @@ p{
  .form-text{
   margin-bottom: 10px;
  }
+ .csr-text{
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.csr-heading{
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.list-text{
+  font-family: "Arial", sans-serif;
+}
