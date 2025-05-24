@@ -8,6 +8,7 @@ import SidebarContent from "components/layouts/SidebarContent";
 import List from "components/layouts/List";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Zoom from 'react-medium-image-zoom';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Page() {
   return (
@@ -27,6 +28,7 @@ export default function Page() {
             <fieldset className="article-box-border">
               <h6>ANNUAL REPORT ON CORPORATE SOCIAL RESPONSIBILITY (CSR) ACTIVITIES/ INITIATIVES FOR THE FINANCIAL YEAR 2022-23</h6>
               <div className="blue-line mt-2 mb-4"></div>
+               <ScrollAnimation animateIn="lightSpeedInLeft">
               <div className="csr-text">
                [Pursuant to Section 135 of the Companies Act, 2013 Read with Companies (Corporate Social Responsibility Policy), Rules, 2014]
               </div>
@@ -41,173 +43,122 @@ export default function Page() {
 
               <p>The key philosophy of all CSR initiatives of the Company is guided by three core commitments of Scale, Impact and Sustainability.   
               </p>
+               </ScrollAnimation>
+                <ScrollAnimation animateIn="lightSpeedInRight">
               <p className="csr-text">Focus Areas of Engagement:</p>
               <p>Among various CSR initiatives of the Company, the major focused areas of CSR spending for the Financial Year 2022-23 had been the followings:</p>
          
-              <List
-                data={[
+             
                   <>
-                    <h6>Healthcare:</h6> <p>Company is always committed towards CSR at large and as such invested in multiple healthcare projects. Mega Blood Donation camp was organised in collaboration with local community wherein 200 units of blood was collected for benefit of local people. Dengue Awareness programme, First Aid Camp, and Assistance for the Better Treatment for critical and needy patient were other health related awareness/programs organised by BAL.</p>
-                   
-                  </>,
-                  <><h6>Medicine:</h6> <p className="list-text">Further, distribution of free medicines, health awareness & promotion programmes, programme for physically challenged person, free ambulance facility, distribution of blankets & mosquito nets, etc., are among various initiatives taken towards health care in the financial year 2022-23</p>
-                  </>,
-                  <><h6>Water Supply:</h6> <p>The Company has initiated several Safe water projects and in process of endeavouring such commitment, the Company has started Operation & Maintenance of four safe drinking water supply projects benefiting 560 households of Kaliapani, Ghagiashi, Chinghudipal & Bamanagar villages by having regular access to safe water, thereby reducing the number of cases of water borne diseases.Several Water Purifiers were also installed  in the peripheral areas of Plant providing safe drinking water for all localities.</p>
-                  </>,
+                    <p className="csr-heading">(i) Healthcare:</p> 
+                    <div className="blue-line mt-2 mb-4"></div>
+                    <p>Company is always committed towards CSR at large and as such invested in multiple healthcare projects. Mega Blood Donation camp was organised in collaboration with local community wherein 200 units of blood was collected for benefit of local people. Dengue Awareness programme, First Aid Camp, and Assistance for the Better Treatment for critical and needy patient were other health related awareness/programs organised by BAL.</p>
+                     <hr />
+                  </>
+                  <><p className="csr-heading">(ii) Water Supply:</p>
+                   <div className="blue-line mt-2 mb-4"></div>
+                   <p>The Company has initiated several Safe water projects and in process of endeavouring such commitment, the Company has started Operation & Maintenance of four safe drinking water supply projects benefiting 560 households of Kaliapani, Ghagiashi, Chinghudipal & Bamanagar villages by having regular access to safe water, thereby reducing the number of cases of water borne diseases.Several Water Purifiers were also installed  in the peripheral areas of Plant providing safe drinking water for all localities.
+                   </p>
+                   <hr />
+                  </>
                   <>
-                    <h6>10th March :</h6> Water project inauguration as part of our Water and Sanitation drive
-                  </>,
+                    <p className="csr-heading">(iii) Environment:</p>
+                    <div className="blue-line mt-2 mb-4"></div>
+                    <p>With a commitment to make clean and green environment, 9850 saplings were distributed to 2500 families from Remuna & Nilgiri promoting awareness towards environment on World Environment Day.</p>
+                     <hr />
+                  </>
                   <>
-                    <h6>21st March :</h6> Water project inauguration as part of our Water and Sanitation drive
-                  </>,
-                ]}
-              />
-              <p className="text-right text-success">#whatcanwedotohelp2019</p>
+                    <p className="csr-heading">(iv) Infrastructure Development:</p> 
+                    <div className="blue-line mt-2 mb-4"></div>
+                    <p>BAL has taken various infrastructural projects like construction of School road and boundary wall, Refugee Colony, Extension of Panchayat Road & Protection Wall of the Ponds at Balgopalpur.BAL installed CC Camera near Hatiagand Chhak traffic , Remuna Bazar.</p>
+                     <hr />
+                  </>
+                  <>
+                    <p className="csr-heading">(v) Women Empowerment:</p> 
+                    <div className="blue-line mt-2 mb-4"></div>
+                    <p>Company has taken various initiatives for empowering rural women by providing special training programmes on Tailoring, making serving plates from semi dried leaves, Incense sticks making, etc. resulting into self-employment generation for supporting their families. Further, Women’s Self Help Groups have also been formed to make them self-dependent.</p>
+                     <hr />
+                  </>
+                   <>
+                    <p className="csr-heading">(vi) Education Development:</p> 
+                    <div className="blue-line mt-2 mb-4"></div>
+                    <p>With the view to enhance and support educational facilities, BAL has supplied desk & benches to school in Nuapadhi. Further to minimize teacher to student ratio, BAL is providing remuneration to additional teacher’s. Providing College Bus transportation facilities for Sukinda college. Various skill development programmes were conducted. Sponsoring financial assistance for higher education & establishing Coaching centres for students.</p>
+                     <hr />
+                  </>
+                   <>
+                    <p className="csr-heading">(vii) Swachh Bharat Abhiyan:</p> 
+                    <div className="blue-line mt-2 mb-4"></div>
+                    <p>Installation of six Bio-e toilets in three schools in Kaliapani, construction of toilets alongwith Bathrooms for 90 identified households in Baragali village, sukinda, clening of ponds, construction of pucca ghats etc are some of the projects undertaken by the company to Promote Swachh Bharat Mission.</p>
+                     <hr />
+                  </>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInLeft">
+                 <p className="csr-heading">2. The composition of the CSR Committee: </p>
+                <p>We have a CSR Committee of the Board of Directors who overviews the CSR undertakings to ensure that the CSR objectives are met. Our CSR Committee comprises:- NA</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInLeft">
+                 <p className="csr-heading">3. Average Net Profit of the company for last 3 financial years & Prescribed CSR expenditure: </p>
+                <p>Section 135 of the Companies Act, 2013 and rules made there under prescribes that every company having a net worth of Rs. 500 Crores or more, or turnover of Rs. 1000 Crores or more or a net profit of Rs. 5 Crores during any financial year shall ensure that the Company spends, in every financial year at least 2% of the average net profit made during the three immediately preceding financial years, in pursuance of its CSR Policy. The provisions pertaining to corporate social responsibility (‘CSR’) as prescribed under the Companies Act, 2013 are not applicable to the company for the financial year 2022-23. </p>
+              </ScrollAnimation>
             </fieldset>
           </div><br></br><br></br>
           <div className="col-sm-12 mt-2">
             <fieldset className="article-box-border">
-              <h3>SUPPORTING SUSTAINABLE COMMUNITIES</h3>
+              <h6>ANNUAL REPORT 2018-19</h6>
               <div className="blue-line mt-2 mb-4"></div>
-
+              <ScrollAnimation animateIn="lightSpeedInLeft">
               <p>Our CSR activities are based on sustainable development and inclusive growth. We are working with our communities to bring about sustainability.</p>
-              <p>Our CSR activities are based on sustainable development and inclusive growth. We are working with our communities to bring about sustainability. We listen to our communities and prioritise the needs ranked highly by them by supporting a sustainable local economy, which is continuously enhanced through access to social infrastructure; that is inclusive and equitable; and that is built on the foundations of trusting relationships and partnerships in continuous strategic engagement with all stakeholders.</p>
-
-              <ResponsiveMasonry
-                columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-                className="responsive-masonry"
-              >
-                <Masonry gutter={'20px'}>
-                  {[
-                    '/images/Pic1_1.jpg',
-                    '/images/Picture2.jpg',
-                    '/images/Picture3.jpg'
-                  ].map((i, k) => <Zoom key={k}>
-                    <img style={{ border: '1px solid #ddd', borderRadius: '10px', boxShadow: '2px 2px 2px 1px #efefef' }} src={i} alt="Image" className="w-100 max-width-100 overflow-hidden" />
-                  </Zoom>)}
-                </Masonry>
-              </ResponsiveMasonry>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInRight">
+              <p className="text-right">For more Information, <Link href={"/files//CSR 2018-19.pdf"} passHref><span className="text-primary">Click Here</span></Link></p>
+              </ScrollAnimation>
             </fieldset>
           </div><br></br><br></br>
           <div className="col-sm-12 mt-2">
             <fieldset className="article-box-border">
-              <h3>WATER</h3>
+              <h6>Post Fani, Balasore Alloys volunteers at the forefront of Cyclone Relief at Puri</h6>
+              <p className="smaller">* Serves 29,000 hungry cyclone victims</p>
               <div className="blue-line mt-2 mb-4"></div>
-
-              <p>Access to water and the availability of clean water is an essential precondition for sustainable development.</p>
-              <p>Access to water and the availability of clean water is an essential precondition for sustainable development and one of the key objectives of the United Nations Sustainable Development Goals over the next decade. For years, Balasore Alloys has been listening to its communities and each year delivers projects that contribute towards the attainment of this sustainable goal.</p>
+               <ScrollAnimation animateIn="lightSpeedInLeft">
+              <p className="csr-heading">Balasore: 14th May 2019:</p><p>  Balasore Alloys Ltd. (BAL) - India’s leading Ferrochrome manufacturer, post Fani cyclone immediately stepped in resources, deployed volunteers - 17 numbers, 11 cooks and logistical support last weekend to move two truckload  materials and live kitchen apparatus to the worst affected Puri District of Orissa within 24 hours of notice. </p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInRight">
+              <p>The bandobast requirement to get community kitchen functional overnight was a huge challenge for BAL, however, with proper planning and interactions with government officials, all aspects of relief operations and distribution went off smoothly as planned.</p>
+              <p>The BAL team has returned today to Balasore satisfied after feeding 29,000 most vulnerable cyclone Fani victims from its live kitchen platform located at Circuit House, Puri.</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInLeft">
+              <p>The objective was to partner and assist Government initiative to provide on-ground relief to assist cyclone victims with freshly cooked meals - three times a day and delivering much loved piped hot Khichadi and water to the people who had little or nothing to eat. The entire food production unit was certified by the District Food Safety Officer.</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInRight">
+              <p>Thanks to Collector, Puri, Mr. Balwant Singh and BMC Commissioner, Mr. C S Rathore’s support and assistance, a large part of Circuit House complex at Puri opposite to District Magistrate’s office was converted to BAL’s large kitchen operations and logistics distribution to slum areas (Nilachakrapur, Herdi Sahi, Jena Sahi, Muslim Basti, Khandia Bandh, Pentha Sahi, ITI areas, Pradhan Sahi and Mallik Sahi) was manned by BAL volunteers assisted by District Municipal officials.</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInLeft">
+              <p>Apart from District Administration support and initiatives, through the active help and participation of Mr. Sanjay Das Burma, MLA Brahmagiri, BAL volunteers were able to extend relief operations to 5,500 people in the remote Brahmagiri’s two outpost islands Berhampur and Mahinsa, where mode of communications is through boat ride only.</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInRight">
+              <p>Commenting on BAL’s initiatives to touch lives at Puri – Brahmagiri area, Mr. Sanjay Das Burma, MLA Brahmagiri said “I am happy to note that Balasore Alloys Ltd. took initiative to assist the people living in inaccessible areas at Brahmagiri who are cut off from the mainstream”.</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInLeft">
+              <p>Madhumita Mohapatra, volunteer Red Cross Society, commented “BAL replaced Akshayapatra kitchen facilities which got blown away due to cyclone Fani by giving planned hot food supply to the surrounding inhabitants of Puri”.</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="lightSpeedInRight">
+              <p>“BAL’s participation to impact people’s lives at the time of natural calamity was a social responsibility commitment. Throughout the Company’s 28 years of history, social responsibility commitment has been integral to BAL’s Vision and Value system” said Sangram Mohanty, CSR Head, Balasore Alloys Ltd.</p>
+              </ScrollAnimation>
               <ResponsiveMasonry
                 columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 2 }}
                 className="responsive-masonry"
               >
                 <Masonry gutter={'20px'}>
                   {[
-                    '/images/Enviornment.jpg',
-                    '/images/tubewel-1.jpg'
+                    '/images/csr/cyclone-1.jpg',
+                    '/images/csr/cyclone-2.jpg',
+                    '/images/csr/cyclone-3.jpg',
+                    '/images/csr/csr2.jpg',
                   ].map((i, k) => <Zoom key={k}>
                     <img style={{ border: '1px solid #ddd', borderRadius: '10px', boxShadow: '2px 2px 2px 1px #efefef' }} src={i} alt="Image" className="w-100 max-width-100 overflow-hidden" />
                   </Zoom>)}
                 </Masonry>
               </ResponsiveMasonry>
-            </fieldset>
-          </div>
-          <div className="col-sm-12 mt-2">
-            <fieldset className="article-box-border">
-              <h3>HEALTH & SANITATION</h3>
-              <div className="blue-line mt-2 mb-4"></div>
-              <div className="text-center">
-                <Zoom>
-                  <img src="/images/pic45.jpg" className="w-100 max-width-100" height="350" alt="" />
-                </Zoom>
-              </div><br></br>
-              <p>Health and sanitation impact food security, livelihood choices and long-term opportunities. Balasore Alloys has responded to community requests through the provision of health camps, mosquito nets and toilets, including smart toilets. Our projects support India's ambitious targets for sanitation.</p>
-              <p>Health and sanitation impact food security, livelihood choices and long-term opportunities. Balasore Alloys has responded to community requests through the provision of health camps, mosquito nets and toilets, including smart toilets. Our projects support India’s ambitious targets for sanitation.</p>
-            </fieldset>
-          </div>
-          <div className="col-sm-12 mt-2">
-            <fieldset className="article-box-border">
-              <h3>EDUCATION, SKILLS & EMPOWERMENT</h3>
-              <div className="blue-line mt-2 mb-4"></div>
-              <p>Infrastructure for education and skills is not only a way out of poverty but it is the path to sustainability. Over the years, Balasore Alloys has supported schools, teachers, training centres and trainers in order to promote community growth. We are better together and in our deep belief in this, we are now ambitiously pursuing making our skills projects circular, whilst empowering communities.</p>
-              <ResponsiveMasonry
-                columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 2 }}
-                className="responsive-masonry"
-              >
-                <Masonry gutter={'20px'}>
-                  {[
-                    '/images/Student.jpg',
-                    '/images/student-2.jpg'
-                  ].map((i, k) => <Zoom key={k}>
-                    <img style={{ border: '1px solid #ddd', borderRadius: '10px', boxShadow: '2px 2px 2px 1px #efefef' }} src={i} alt="Image" className="w-100 max-width-100 overflow-hidden" />
-                  </Zoom>)}
-                </Masonry>
-              </ResponsiveMasonry>
-            </fieldset>
-          </div>
-          <div className="col-sm-12 mt-2">
-            <fieldset className="article-box-border">
-              <h3>ROADS & INFRASTRUCTURE</h3>
-              <div className="blue-line mt-2 mb-4"></div>
-              <div className="text-center">
-                <Zoom>
-                  <img src="/images/Panchayat_road.jpg" className="w-100 max-width-100" height="250" alt="" />
-                </Zoom>
-              </div><br></br>
-              <p>Roads enable connectivity and safety and ensure that communities find it easier to be mobile and access a greater number of social and economic opportunities.</p>
-            </fieldset>
-          </div>
-          <div className="col-sm-12 mt-2">
-            <fieldset className="article-box-border">
-              <h3>CULTURE</h3>
-              <div className="blue-line mt-2 mb-4"></div>
-              <div className="text-center">
-                <Zoom>
-                  <img src="/images/culture.jpg" className="w-100 max-width-100" height="250" alt="" />
-                </Zoom>
-              </div><br></br>
-              <p>Culture is important to our communities. We approach our communities with sensitization and feel honoured to be a small part of their spiritual wellbeing. </p>
-            </fieldset>
-          </div>
-          <div className="col-sm-12 mt-2">
-            <fieldset className="article-box-border">
-              <h3>ENVIRONMENT</h3>
-              <div className="blue-line mt-2 mb-4"></div>
-              <div className="text-center">
-                <Zoom>
-                  <img src="/images/student-4.jpg" className="w-100 max-width-100" height="250" alt="" />
-                </Zoom>
-              </div><br></br>
-              <p>At Balasore Alloys, we celebrate the importance of the environment by being conscious of our impact and constantly working towards sustainable afforestation, which not only contributes to the maintenance of environmental standards but also directly supports the communities’ food chain. We also strive to bring about continuous awareness and this will be supported by a CSR Month dedicated to events that strengthen and enhance our community engagement.</p>
-            </fieldset>
-          </div>
-          <div className="col-sm-12 mt-2">
-            <fieldset className="article-box-border">
-              <h3>More than 500 patients treated at Balasore Alloys Free Medical Camp</h3>
-              <div className="blue-line mt-2 mb-4"></div>
-              <p><strong>Balasore, 10 August 2013:</strong> Living up to its motto, ‘People First’, <strong>Balasore Alloys Ltd (BAL)</strong> once again organized a mega free medical check up camp in Remuna Refugee Colony UP ME School in Balgopalpur village of Balasore district. Doctors at the camp treated a total of -562 patients, who received attention from a special team of gynaecologists. In 2013, BAL has organized three free camps related to health segment for various stakeholders till date.</p>
-              <p>The mega health check up camp was inaugurated by <strong>Hon’ble Remuna MLA, Shri Sudarshan Jena in presence of CDMO, Dr Anup Ghosh and other dignitaries and company officials.</strong></p>
-              <p>“BAL believes that the wellbeing and development of society is every stakeholder’s joint responsibility, which needs to be fulfilled with utmost dedication. Accordingly, we are implementing a CSR plan to provide broad-based help and medical assistance to all villagers, especially pregnant women and infants,” said <strong>Mr S. V. Bhavani Varma, Sr Vice-President – Operations</strong> adding that healthy society is utmost priority for the company.</p>
-              <p>The camp was organized in Balgopalpur village. After consultations with the medical officer at the BAL plant and eight doctors from Medicine, Gynocology, Skin, Paediatric, ENT and Surgery segment attended the camp and treated the patients.</p>
-              <p><strong>Mr Varma also said</strong>, “Our preliminary interactions and informal surveys highlighted the need of medical assistance. It was therefore decided to hold a medical camp here. These free camps have helped some patients that needed treatment.” Besides the regular checkups, maternity-related issues and infant healthcare, the team of doctors advised villagers on how to maintain proper hygiene at all times.</p>
-            </fieldset>
-          </div>
-          <div className="col-sm-12 mt-2">
-            <fieldset className="article-box-border">
-              <h3>Water Project inauguration as part of our Water and Sanitation drive</h3>
-              <div className="blue-line mt-2 mb-4"></div>
-              <div className="text-center">
-                <Zoom>
-                  <img src="/images/sanitation_drive.jpg" className="w-100 max-width-100" height="250" alt="" />
-                </Zoom>
-              </div><br></br>
-              <p>Balasore Alloys Ltd. handed over the key to the newly inaugurated Rankia village water project on 15th March 2019. Due to shortages of this vital resource, especially during the height of the dry season, women had hitherto to walk miles to harness it. The new water tank is thus not only a source of sustainable development in the village which contributes to our water and sanitation drive, but we hope that it will contribute to the empowerment of the people and notably, the women, of Rankia village who are both the beneficiaries and the beholden. </p>
-            </fieldset>
-          </div>
-          <div className="col-sm-12 mt-2">
-            <fieldset className="article-box-border">
-              <h3>CSR POLICY</h3>
-              <div className="blue-line mt-2 mb-4"></div>
-              <p><Link href="/files/CSR_25_06_2018.pdf" passHref><a target="_blank"><strong>Click Here To Download</strong></a></Link></p>
             </fieldset>
           </div>
 
